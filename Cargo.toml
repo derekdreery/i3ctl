@@ -1,0 +1,10 @@
+[package]
+name = "i3ctl"
+description = "A command line app to control i3"
+version = "0.1.0"
+authors = ["Richard Dodd <richard.o.dodd@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+i3ipc = { version = "0.10", features = ["i3-next"] }
+structopt = "0.2.14"
